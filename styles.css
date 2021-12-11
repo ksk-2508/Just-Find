@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+.first-half-nav {
+  background-color: #fff;
+}
+
+nav {
+    height: 5rem;
+    background: #1f1a49;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem calc((100vw- 81.25rem) / 2);
+  }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+  }
+
+.logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+.main-container{
+  text-align: center;
+}
+
+p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.register{
+  text-align: center;
+  margin: 4rem;
+  padding: 0rem 25rem;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label, input{
+  display: table-cell;
+  margin: 1rem 0rem;
+}
